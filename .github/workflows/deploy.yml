@@ -22,7 +22,7 @@ jobs:
       - name: Deploy CloudFormation Stack
         uses: aws-actions/aws-cloudformation-github-deploy@v1.2.0
         with:
-          stack-name: MySQSStack
+          name: MySQSStack
           template: sqs.yaml
           capabilities: CAPABILITY_IAM 
           no-fail-on-empty-changeset: true
