@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: CloudFormation template to create a SQS
+Description: CloudFormation template to create  SQS
 
 Resources:
   MasterDataSQSQueue:
