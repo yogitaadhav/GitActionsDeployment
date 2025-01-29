@@ -20,7 +20,7 @@ jobs:
           aws-region: us-east-1 
 
       - name: Deploy CloudFormation Stack
-        uses: aws-actions/cloudformation-deploy-stacks@v1.2.3
+        uses: aws-actions/aws-cloudformation-github-deploy@v1.2.0
         with:
           stack-name: MySQSStack
           template: sqs.yaml
